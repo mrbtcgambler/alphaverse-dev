@@ -1,6 +1,7 @@
 import fetch from 'node-fetch-retry-timeout';
 import { v4 as uuidv4 } from 'uuid';
 import twoFactor from 'node-2fa';
+import TronWeb from 'tronweb';
 
 const getRandomNumber = (limit = 40) => {
     const min = Math.ceil(0);

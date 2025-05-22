@@ -1,6 +1,6 @@
 // depositFunds.js
 import fs from 'fs/promises';
-import { TronWeb } from 'tronweb';
+import TronWeb from 'tronweb';
 
 // Load configuration from client_config.json
 const clientConfig = JSON.parse(await fs.readFile(new URL('../client_config.json', import.meta.url)));
