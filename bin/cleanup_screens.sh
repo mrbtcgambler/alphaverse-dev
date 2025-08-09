@@ -29,7 +29,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Location of the known_ips.txt file
-KNOWN_IPS_FILE="$HOME/alphaverse-auto/bin/known_ips.txt"
+KNOWN_IPS_FILE="$HOME/alphaverse-dev/bin/known_ips.txt"
 
 # Function to clean up tr46Check screens
 cleanup_screens() {
