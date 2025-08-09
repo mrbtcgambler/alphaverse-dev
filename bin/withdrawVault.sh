@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-cd /mnt/alphaverse-auto/
+cd /mnt/alphaverse-dev/
 node client/withdrawFromVault.js
