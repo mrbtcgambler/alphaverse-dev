@@ -26,7 +26,7 @@ echo $SUDO_PASSWORD | sudo -S echo Building Agent..
 cd
 rm -rf proxy
 mkdir proxy
-cp -r ~/alphaverse-auto/agent/* ~/proxy/
+cp -r ~/alphaverse-dev/agent/* ~/proxy/
 cd proxy/
 npm install
 npm update
