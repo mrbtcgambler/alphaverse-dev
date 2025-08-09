@@ -28,7 +28,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Location of the known_ips.txt file
-KNOWN_IPS_FILE="$HOME/alphaverse-auto/bin/known_ips.txt"
+KNOWN_IPS_FILE="$HOME/alphaverse-dev/bin/known_ips.txt"
 
 cd $HOME/alphaverse-auto/
 echo $SUDO_PASSWORD | sudo -S echo hello
@@ -84,7 +84,7 @@ while true; do
     if check_ip; then
         echo "Unique IP obtained."
 	sleep 2
-	screen -dmS client && screen -S client -X stuff 'cd /mnt/alphaverse-auto && npm run client\n'
+	screen -dmS client && screen -S client -X stuff 'cd /mnt/alphaverse-dev && npm run client\n'
 	sleep 3
         break  # Correct IP obtained, exit the loop
     else
