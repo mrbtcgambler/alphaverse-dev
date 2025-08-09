@@ -28,7 +28,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Location of the change.sh bash script file
-CHANGE_SCRIPT="$HOME/alphaverse-auto/bin/change.sh"
+CHANGE_SCRIPT="$HOME/alphaverse-dev/bin/change.sh"
 
 cd $HOME/alphaverse-auto/
 echo $SUDO_PASSWORD | sudo -S echo hello
